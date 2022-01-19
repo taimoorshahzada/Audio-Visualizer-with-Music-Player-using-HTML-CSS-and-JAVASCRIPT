@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer using HTML, CSS and JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Visualizer  (🎵)</h1>
+        <div id="audio-visual" onclick="playPause()">
+            <div class="audio-wire audio-wire-1"></div>
+            <div class="audio-wire audio-wire-2"></div>
+            <div class="audio-wire audio-wire-3"></div>
+            <div class="audio-wire audio-wire-4"></div>
+            <div class="audio-wire audio-wire-5"></div>
+            <div class="audio-wire audio-wire-6"></div>
+            <div class="audio-wire audio-wire-7"></div>
+            <div class="audio-wire audio-wire-8"></div>
+            <div class="audio-wire audio-wire-9"></div>
+        </div>
+        <p>Click me for play or pause!</p>
+    </div>
+    <audio src="music.mp3" id="music" loop autoplay></audio>
+    <script src="script.js"></script>
+</body>
+</html>
